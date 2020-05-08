@@ -1,0 +1,12 @@
+6. Life Cycle
+ให้นักศึกษาอธิบาย Life Cycle ดังกล่าวตามทีกําหนด ว่าแต่ละอันมีหลักการทํางานอยา่ งไร
+6.1 Start()
+ทำงานเป็นงานแรก ทำเพียงครั้งเดียว
+6.2 Update()
+ทำงานต่อจาก Start() ทำงานซ้ำๆตามเฟมเรท
+6.3 FixedUpdate()
+คล้ายUpdate() แต่จะทำงานโดยป้องกันการพลาดเวลาเฟรมเรทถี่ๆ
+6.4 OnCollision(
+เมื่อgameObjectชนกับcolliderอื่น
+6.5 จงเรียงลําดับก่อนหลังของ Life Cycle ทีกําหนดให้
+Awake() Start() FixedUpdate() Update() OnTrigger() OnCollision()
